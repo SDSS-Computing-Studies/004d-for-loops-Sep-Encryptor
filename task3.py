@@ -23,3 +23,4 @@ for i in numList:
         print(i)
     else:
         continue
+    
