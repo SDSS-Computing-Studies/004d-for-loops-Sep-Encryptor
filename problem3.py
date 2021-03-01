@@ -17,3 +17,14 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+
+N=input(("enter a integer: ")).strip()
+N=input(N)
+a=0
+for i in range(0,N):
+    c="1"*N
+    c=int(c)
+    a += c
+    N -= 1
+a=str(a)
+print("the sum of the series is "+a)
