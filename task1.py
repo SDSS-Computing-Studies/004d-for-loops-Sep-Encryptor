@@ -23,5 +23,5 @@ N=int(N)
 for a in range(1,13):
     a=int(a)
     c=N*a
-    print(c,end="")
+    print(c,end=" ")
     
